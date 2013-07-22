@@ -4,9 +4,9 @@ function readmore($string, $limit, $readmore = '...') {
     $words = array();
     $words = explode(' ', $string, $limit);
 
-    if (count($words) == 101) {
-       $words[100] = $readmore;
+    if (count($words) == $limit) {
+       $words[$limit - 1] = $readmore;
     }
-
+    
     return implode(' ', $words);
 }
