@@ -1,0 +1,21 @@
+{
+    "name": "travis/readmore",
+    "description": "A PHP function to cutoff string based on word count.",
+    "homepage": "https://github.com/swt83/php-readmore",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Scott Travis",
+            "email": "scott.w.travis@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "files": [
+            "src/readmore.php"
+        ]
+    },
+    "minimum-stability": "dev"
+}
